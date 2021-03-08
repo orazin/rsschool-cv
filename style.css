@@ -3,3 +3,21 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(21, 216, 241);
+    font-size: 64px;
+}
+h2{
+    color:blueviolet;
