@@ -21,3 +21,14 @@ h1{
 }
 h2{
     color:blueviolet;
+    
+.avatar{
+  float: right;
+  margin-left: 70px;
+  margin-bottom: 25px;
+  
+}
+img{
+    border-radius: 5%;
+   
+}
