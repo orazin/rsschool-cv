@@ -15,20 +15,20 @@ header{
     align-items: center;
 }
 
-h1{
+h1 {
     color: rgb(21, 216, 241);
     font-size: 64px;
 }
-h2{
+h2 {
     color:blueviolet;
-    
-.avatar{
+}
+.avatar {
   float: right;
   margin-left: 70px;
   margin-bottom: 25px;
   
 }
-img{
+img {
     border-radius: 5%;
    
 }
