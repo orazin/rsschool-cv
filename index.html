@@ -1,24 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <title>Html&Css&Git</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <header>
+        <div class="logo"><img src="src/rs-logo.jpg" alt="rs-school logo"></div>
+        
+    </header>
+    
+    
     <div class="wrapper">
-        <header>
-             <div class="logo"><img src="src/rs-logo.jpg" alt="rs-school logo"></div>
-        </header>
         <main>
             <article>
-
+               <h1>Curriculum Vitae</h1>
+               <div class="avatar"><img src="src/photo_cv.jpg" alt="My avatar"></div>
+               <section class="name">
+                   <h2>Name:</h2>
+                   <p>Oralkhan Zinullin</p>
+               </section> 
+               <section class="contacts">
+                   <h2>Contacts:</h2>
+                   <ul>
+                       <li>Phone: 8-747-114-69-47</li>
+                       <li>Email: zinullin.o@gmail.com</li>
+                       <li>Github: <a href="https://github.com/orazin">orazin</a></li>
+                   </ul>
+               </section>
+               <section class="about">
+                   <h2>About me:</h2>
+                   <p>Hi, my name is Oralkhan, I'm 25 years old! And I want to become a frontend developer. <br> To do this, I'm taking an RS-School course, watching videos on youtube and making notes on the material I've learned</p>
+               </section>
+               <section class="skills">
+                   <h2>Skills:</h2>
+                   <ul>
+                       <li>HTML</li>
+                       <li>CSS</li>
+                       <li>JS</li>
+                       <li>GIT</li>
+                       <li>REACT</li>
+                   </ul>
+               </section>
+               <section class="code">
+                   <h2>Code-example:</h2>
+                   <br>
+                   <code>
+                       <pre>
+                        class Book{
+                            constructor(author){
+                            this._author = author;
+                            }
+                              get writer(){
+                                  return this._author;
+                              }
+                                
+                              set writer(updatedAuthor){
+                                  this._author = updatedAuthor;
+                              }
+                            }
+                            const novel = new Book('Mark Helberg');
+                            console.log(novel.writer) // Срабатывает getter как метод
+                            novel.writer = 'Ellise Egen' // срабатывает setter
+                       </pre>
+                   </code>
+               </section>
+               <section class="work">
+                   <h2>Work experience:</h2>
+                   <ul>
+                       <li>Html&CSS course on FreeCodeCamp</li>
+                       <li>JS Basic&ES6 on FreeCodeCamp</li>
+                   </ul>
+               </section>
+               <section class="education">
+                   <h2>Education:</h2>
+                   <ul>
+                       <li>Technical University of Oil and Gas</li>
+                   </ul>
+               </section>
+               <section class="english">
+                   <h2>English level:</h2>
+                   <ul>
+                       <li>Intermediate</li>
+                       <li>Training in Netherlands</li>
+                   </ul>
+               </section>
             </article>
         </main>
-        <footer>
-
-        </footer>
     </div>
 </body>
-</html> 
+</html>
